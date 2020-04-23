@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+body {}
+
+.wrapper_full {
+    width: 100%;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.clr {
+    clear: both;
+}
+
+@font-face {
+    font-family: Gotham_Bold;
+    src: url(../fonts/Gotham_Bold/Gotham_Bold.ttf);
+}
+
+@font-face {
+    font-family: Gotham_Bold_Regular;
+    src: url(../fonts/Gotham_Bold/Gotham_Bold_Regular.ttf);
+}
+
+h1 {
+    font-size: 40px;
+    color: #303030;
+    text-transform: uppercase;
+    font-family: Gotham_Bold;
+}
+
+h2 {
+    font-size: 30px;
+    color: #303030;
+    text-transform: uppercase;
+    font-family: Gotham_Bold;
+}
+
+h3 {
+    font-size: 24px;
+    color: #353535;
+    text-transform: uppercase;
+    font-family: Oswald-Medium;
+}
+
+h4 {
+    font-size: 16px;
+    color: #303030;
+    text-transform: uppercase;
+    font-family: Gotham_Bold;
+}
+
+h5 {
+    font-size: 14px;
+   color: #909090;
+    font-family: Gotham_Bold;
+}
+
+p {
+    font-size: 15px;
+    color: #909090;
+    line-height: 1.5;
+    font-family: Gotham_Bold;
+    padding: 25px 0px 55px;
+}
+
+a {
+    font-size: 14px;
+    color: #353535;
+    text-transform: capitalize;
+    font-family: Gotham_Bold_Regular;
+    transition: all linear 0.2s;
+}
+
+.py_60 {
+    padding: 60px 0px;
+}
+
+.pt_50 {
+    padding-top: 50px;
+}
+
+/*--------------------*/
+.header_part {}
+
+.logo {
+    width: 200px;
+    padding: 40px 5px;
+    float: left;
+}
+
+.manu {
+    width: 460px;
+    float: right;
+}
+
+.manu ul {
+    float: right;
+}
+
+.manu ul li {
+    float: left;
+}
+
+.manu ul li a {
+    float: right;
+    display: inline-block;
+    padding: 45px 45px;
+    font-family: Gotham_Bold;
+    font-size: 12px;
+    color: #adadad;
+}
+
+/*.........................*/
+.banner_part {
+    background: url(../image/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.banner_part h1 {
+    text-align: center;
+    padding: 170px 0px 15px;
+
+}
+
+.banner_part p {
+    text-align: center;
+    color: #555555;
+    font-size: 16px;
+    padding-bottom: 45px;
+    font-family: inherit;
+}
+
+.banner_part img {
+    padding: 0px 430px 52px;
+}
+
+/*......................*/
+.heading {
+    text-align: center;
+}
+
+.heading p {
+    padding: 25px 0px 54px;
+}
+
+/*..................*/
+.glr img {
+    padding: 30px 28px;
+}
+
+.team_part {
+    text-align: center;
+    background: #f3f3f3;
+}
+
+.team {
+    float: left;
+
+}
+
+.member {
+    width: 200px;
+    background: #fff;
+    float: left;
+    border: 1px solid rgba(150, 150, 150, 0.38);
+    margin: 0px 18px 80px;
+}
+
+.member img {
+    padding: 10px 0px;
+}
+
+.member p {
+    padding: 15px 0px;
+}
+
+.member i {
+    color: #7f7f7f;
+    padding: 14px 10px;
+
+}
+
+/*..........*/
+.items {
+    float: left;
+}
+
+.location {
+    width: 320px;
+    float: left;
+    padding: 0px 100px 70px 0px;
+}
+
+.location p {
+    padding-bottom: 30px;
+}
+/*..............*/
+.contact_part{
+    padding-bottom: 50px;
+}
+.contact {
+    float: right;
+    width: 540px;
+}
+
+.contact p {
+    padding-bottom: 30px;
+}
+
+.contact textarea {
+    width: 540px;
+    background: #f2f2f2;
+    height: 230px;
+}
+
+.contact input {
+    width: 300px;
+    background: #f2f2f2;
+    height: 60px;
+    float: left;
+}
+.input input{
+   background: #6995a9;
+    width: 200px;
+    float: right;
+}
+/*...........*/
+.end_part{
+    background: #4f4f4f;
+   
+}
+.end_part p{
+    float: left;
+    width: 440px;
+    font-size: 14px;
+    padding: 30px 20px;
+   
+}
+.end_part h5{
+    padding: 30px 0px;
+    float: right;
+}
+
+
+
+............
